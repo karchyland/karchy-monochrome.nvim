@@ -356,30 +356,6 @@ local groups = {
   MiniFilesTitle = { link = "FloatTitle" },
   MiniFilesTitleFocused = { fg = c.accent, bg = c.surface, bold = true },
 
-  -- slimline.nvim
-  SlimlineInactive = { fg = c.muted, bg = c.bg_dark },
-  SlimlineModeSecondary = { fg = c.fg_dark },
-  SlimlineModeNormal = { fg = c.accent, bold = true },
-  SlimlineModeVisual = { fg = c.violet, bold = true },
-  SlimlineModeInsert = { fg = c.green, bold = true },
-  SlimlineModeReplace = { fg = c.red, bold = true },
-  SlimlineModeCommand = { fg = c.yellow, bold = true },
-  SlimlineModeOther = { fg = c.cyan, bold = true },
-  SlimlinePathPrimary = { fg = c.fg },
-  SlimlinePathSecondary = { fg = c.muted },
-  SlimlineGitPrimary = { fg = c.orange },
-  SlimlineGitSecondary = { fg = c.muted },
-  SlimlineFiletype_lspPrimary = { fg = c.cyan },
-  SlimlineFiletype_lspSecondary = { fg = c.muted },
-  SlimlineProgressPrimary = { fg = c.accent },
-  SlimlineProgressSecondary = { fg = c.muted },
-  SlimlineRecordingPrimary = { fg = c.red, bold = true },
-  SlimlineSearchcountPrimary = { fg = c.yellow },
-  SlimlineSelectioncountPrimary = { fg = c.violet },
-  SlimlineDiagnosticsError = { link = "DiagnosticError" },
-  SlimlineDiagnosticsWarn = { link = "DiagnosticWarn" },
-  SlimlineDiagnosticsInfo = { link = "DiagnosticInfo" },
-  SlimlineDiagnosticsHint = { link = "DiagnosticHint" },
 }
 
 for name, spec in pairs(groups) do
